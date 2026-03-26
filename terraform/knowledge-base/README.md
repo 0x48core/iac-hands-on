@@ -19,3 +19,8 @@ Terraform follows a simple three-step cycle:
 - **Data source** — Lets you read information from existing infrastructure (rather than creating something new).
 -  **Variable** — An input parameter that makes your configurations reusable.
 - **Output** — A value exported from your Terraform configuration, like an instance’s public IP.
+
+## Core Terraform Commands 
+![1774552699107](image/README/1774552699107.png)
+
+**Good habit:** Always run `terraform plan` before `terraform apply`. Review the plan carefully — Terraform will show you exactly what it’s going to create, change, or destroy. Never skip this step.
